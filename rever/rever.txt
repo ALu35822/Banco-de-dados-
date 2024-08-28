@@ -1,0 +1,9 @@
+1) Tabela: Perfil_Cliente
+    - Diamante
+    - Ouro
+
+    Relaciona com Cliente
+
+2) Usuario
+    Para acesso a àrea restrita do site.
+    Moldes cliente
