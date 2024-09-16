@@ -12,6 +12,7 @@ Inteiro
 Chave primária
 Auto Increment
     IDPerfil
+
 	Chave Estrangeira
 Nome
 Texto
@@ -99,6 +100,7 @@ Perfil_Cliente
 Inteiro
 Chave Primária
 Auto Increment
+
   NomePerfil
 	Texto, nome do perfil (ex. ”Diamante”, “Rubi”, “Esmeralda”)
 
@@ -107,18 +109,22 @@ Usuarios
 	Inteiro
 	Chave Primária
 	Auto Increment
+
   Username
 	Texto
+
   Email
 	Texto
+
   Senha
 	Texto
+
   IDCliente
 	Inteiro
 	Chave Estrangeira
+
   DataCadastro
 	Data
+
   TipoUsuario
 	Texto, para definir o tipo de usuário(ex. “admin”, “cliente”)
-
-
